@@ -14,7 +14,6 @@
 </template>
 <script>
 import $ from 'jquery';
-import 'highlight.js';
 const htmlBeautify = require('js-beautify').html;
 
 export default {
