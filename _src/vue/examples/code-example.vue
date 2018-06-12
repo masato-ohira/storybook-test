@@ -8,7 +8,7 @@
         code.html(ref="source") {{ code }}
 
       .code-example__btn
-        a.button.is-small(
+        a.button(
           @click="execCopy"
         ) Copy
 </template>
