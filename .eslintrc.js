@@ -17,7 +17,7 @@ module.exports = {
   ],
   globals: {
     $: true,
-    ga: true,
+    hljs: true,
     google: true,
   },
   rules: {

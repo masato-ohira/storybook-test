@@ -16,14 +16,14 @@ btnEx.add('default', withNotes(`
 `)( () => {
   return {
     components: {CodeExample, MyButton},
-    template: `<CodeExample><MyButton story="default"></MyButton>`,
+    template: `<CodeExample><MyButton story="default"></MyButton></CodeExample>`,
   };
 }));
 
 btnEx.add('color', () => {
   return {
     components: {CodeExample, MyButton},
-    template: `<CodeExample><MyButton story="color"></MyButton>`,
+    template: `<CodeExample><MyButton story="color"></MyButton></CodeExample>`,
   };
 });
 
