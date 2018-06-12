@@ -10,7 +10,7 @@
   "author": "masato-ohira",
   "scripts": {
     "git": "git add . && git commit -a -m 'auto commit'",
-    "ghpage": "push-dir --dir=public_html --branch=gh-pages --cleanup",
+    "ghpage": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "buid-storybook": "build-storybook -o dist"
   },
