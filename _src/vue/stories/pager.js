@@ -21,6 +21,6 @@ pagerEx.add('pager', withNotes(`
 
   return {
     components: {MyPager},
-    template: `<MyPager page=${page} limit=${limit} results=${results}></MyPager>`,
+    template: `<my-pager page=${page} limit=${limit} results=${results}></my-pager>`,
   };
 }));

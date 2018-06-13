@@ -10,9 +10,9 @@
   "author": "masato-ohira",
   "scripts": {
     "git": "git add . && git commit -a -m 'auto commit'",
-    "ghpage": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "ghpage": "push-dir --dir=storybook-static --branch=gh-pages --cleanup",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "buildbook": "build-storybook --output-dir dist"
+    "buildbook": "build-storybook"
   },
   "dependencies": {
     "bulma": "^0.7.1",
