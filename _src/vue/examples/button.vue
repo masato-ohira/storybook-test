@@ -3,7 +3,9 @@
   section(v-if="story == 'default'")
     ul
       li
-        a.button Default
+        a.button(
+          :class="setClass([])"
+        ) Default
 
   section(v-if="story == 'color'")
     ul

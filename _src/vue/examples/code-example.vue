@@ -14,6 +14,7 @@
 </template>
 <script>
 import $ from 'jquery';
+import hljs from 'highlight.js';
 const htmlBeautify = require('js-beautify').html;
 
 export default {
@@ -74,6 +75,8 @@ export default {
   },
 };
 </script>
+
+<style src='../../../node_modules/highlight.js/styles/github.css'></style>
 <style lang='sass'>
 .code-example
   padding: 30px
